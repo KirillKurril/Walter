@@ -1,49 +1,167 @@
 using Interface;
+using System;
+using System.Reflection;
+using System.Threading;
 
 namespace Collection
 {
     class MyCustomCollection<T> : ICustomCollectioin<T>
     {
-        private T[]? _items = null;
+        private int counter = 0;
+        private Node<T>? head = null;
+        private Node<T>? current = null;
 
-        private int _currentIndex = -1;
+        private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
+        public MyCustomCollection() {}
 
-        public MyCustomCollection(int capacity)
-        {
-            _items = new T[capacity];
-
-            _currentIndex = 0;
-        }
-        T this[int index] 
+        public T this[int index]
         {
             get
             {
-                if (_currentIndex >= 0 && _currentIndex < _items.Length)
+                if (CorrectIndexCheck(index))
                 {
-                    return _items[index];
+                    Node<T>? currentNode = head;
+                    for (int i = 0; i < index; i++)
+                    {
+                        currentNode = currentNode?.Next;
+                    }
+
+                    if (currentNode != null)
+                    {
+                        return currentNode.Value;
+                    }
                 }
+
                 throw new IndexOutOfRangeException();
             }
             set
             {
-                if (_currentIndex >= 0 && _currentIndex < _items.Length)
+                if (CorrectIndexCheck(index))
                 {
-                    _items[index] = value;
+                    Node<T>? currentNode = head;
+                    for (int i = 0; i < index; i++)
+                    {
+                        currentNode = currentNode?.Next;
+                    }
+
+                    if (currentNode != null)
+                    {
+                        currentNode.Value = value;
+                        return;
+                    }
                 }
+
                 throw new IndexOutOfRangeException();
             }
+        }
 
-        void Reset();
+        public void Reset()
+        {
+            current = head;
+        }
 
-        void Next();
+        public void Next()
+        {
+            if (current != null)
+            {
+                current = current.Next;
+            }
+        }
 
-        T Current();
-        int Count { get; }
+        public T Current()
+        {
+            if (current != null)
+            {
+                return current.Value;
+            }
+            else
+            {
+                throw new IndexOutOfRangeException();
+            }
+        }
 
-        void Add(T item);
+        public int Count { get => counter; }
 
-        void Remove(T item);
+        public void Add(T item)
+        {
+            Node<T> newNode = new Node<T>(item);
 
-        T RemoveCurrent();
+            if (head == null)
+            {
+                head = newNode;
+                current = newNode;
+            }
+            else
+            {
+                Node<T>? currentNode = head;
+                while (currentNode?.Next != null)
+                {
+                    currentNode = currentNode.Next;
+                }
+                currentNode.Next = newNode;
+            }
+
+            counter++;
+        }
+
+        public void Remove(T item)
+        {
+            if (head == null)
+                return;
+
+            if (EqualityComparer<T>.Default.Equals(current.Value, item))
+                current = null;
+
+            if (EqualityComparer<T>.Default.Equals(head.Value, item))
+            {
+                head = head.Next;
+                counter--;
+            }
+
+            Node<T> ? currentNode = head;
+            while (currentNode?.Next != null)
+            {
+                if (EqualityComparer<T>.Default.Equals(currentNode.Value, item))
+                { 
+                    currentNode.Next = currentNode.Next.Next;
+                    counter--;
+                }
+            }
+        }
+
+        public T RemoveCurrent()
+        {
+            T tmp = current.Value;
+            if (current != null)
+            {
+                if (current == head)
+                    head = current.Next;
+
+                Node<T>? currentNode = head;
+                while (currentNode?.Next != current)
+                {
+                    currentNode = currentNode.Next;
+                }
+
+                if (currentNode != null)
+                {
+                    currentNode.Next = current.Next;
+                    current = null;
+                }
+            }
+            return tmp;
+        }
+
+        private class Node<T>
+        {
+            public T Value { get; set; }
+            public Node<T>? Next { get; set; }
+
+            public Node(T value)
+            {
+                Value = value;
+                Next = null;
+            }
+        }
     }
 }
