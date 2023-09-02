@@ -1,0 +1,5 @@
+E:\Walter\253504_dmi_Lab5\253504_dmi_Lab5\obj\Debug\net6.0\253504_dmi_Lab5.csproj.AssemblyReference.cache
+E:\Walter\253504_dmi_Lab5\253504_dmi_Lab5\obj\Debug\net6.0\253504_dmi_Lab5.GeneratedMSBuildEditorConfig.editorconfig
+E:\Walter\253504_dmi_Lab5\253504_dmi_Lab5\obj\Debug\net6.0\253504_dmi_Lab5.AssemblyInfoInputs.cache
+E:\Walter\253504_dmi_Lab5\253504_dmi_Lab5\obj\Debug\net6.0\253504_dmi_Lab5.AssemblyInfo.cs
+E:\Walter\253504_dmi_Lab5\253504_dmi_Lab5\obj\Debug\net6.0\253504_dmi_Lab5.csproj.CoreCompileInputs.cache
