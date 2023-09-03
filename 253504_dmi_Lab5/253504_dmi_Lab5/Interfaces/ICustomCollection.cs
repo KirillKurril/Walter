@@ -1,4 +1,4 @@
-namespace Interface
+namespace _253504_dmi_Lab5.Interfaces
 {
     interface ICustomCollectioin<T>
     {

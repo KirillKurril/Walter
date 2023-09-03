@@ -1,9 +1,9 @@
-using Interface;
+using _253504_dmi_Lab5.Interfaces;
 using System;
 using System.Reflection;
 using System.Threading;
 
-namespace Collection
+namespace _253504_dmi_Lab5.Collections
 {
     class MyCustomCollection<T> : ICustomCollectioin<T>
     {
@@ -13,7 +13,10 @@ namespace Collection
 
         private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
         public MyCustomCollection() {}
-
+        public bool IsEmty()
+        {
+            return counter == 0;
+        }
         public T this[int index]
         {
             get
@@ -150,6 +153,20 @@ namespace Collection
                 }
             }
             return tmp;
+        }
+
+        public void Print()
+        {
+            if(head != null)
+            {
+                Node<T> currentNode = head;
+                while(currentNode != null) 
+                {
+                    System.Console.WriteLine(currentNode.Value.ToString());
+                }
+            }
+            
+
         }
 
         private class Node<T>
