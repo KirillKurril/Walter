@@ -11,8 +11,13 @@ namespace _253504_dmi_Lab5.Collections
         private Node<T>? head = null;
         private Node<T>? current = null;
 
-        private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
+        
         public MyCustomCollection() {}
+
+        private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
+
+
+
         public bool IsEmty()
         {
             return counter == 0;
@@ -152,6 +157,7 @@ namespace _253504_dmi_Lab5.Collections
                     current = null;
                 }
             }
+            --counter;
             return tmp;
         }
 
@@ -162,7 +168,8 @@ namespace _253504_dmi_Lab5.Collections
                 Node<T> currentNode = head;
                 while(currentNode != null) 
                 {
-                    System.Console.WriteLine(currentNode.Value.ToString());
+                    Console.WriteLine(currentNode.Value.ToString());
+                    currentNode = currentNode.Next;
                 }
             }
             

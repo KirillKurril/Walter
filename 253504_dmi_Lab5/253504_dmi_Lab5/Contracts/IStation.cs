@@ -9,7 +9,7 @@ namespace _253504_dmi_Lab5.Interfaces
         void EnterPassengerData(Passenger newPassenger);
         Passenger PassengerInfo(string name);
         Tariff TariffInfo(string destination);
-        double TotalTicketPrice();
-        MyCustomCollection<Passenger> PassengersByDestination(); 
+        double TotalTicketPrice(string name);
+        MyCustomCollection<Passenger> PassengersByDestination(string destination); 
     }
 }
