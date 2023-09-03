@@ -75,7 +75,6 @@ namespace _253504_dmi_Lab5.Entities
         {
             if (!_passes.IsEmty() && !_tariffs.IsEmty())
             {
-                bool flag = false;
                 for (int i = 0; i < _passes.Count; ++i)
                 {
                     Passenger pass = _passes[i];
