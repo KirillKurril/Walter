@@ -5,5 +5,10 @@ namespace _253504_dmi_Lab5.Entities
         public string Destination { get; set;}
         public double Price { get; set;}
         public Tariff(string destination = "", double price = 0.0) => (Destination, Price) = (destination, price);
+
+        public override string ToString()
+        {
+            return $"Destination: {Destination}\nPrice: {Price}";
+        }
     }
 }

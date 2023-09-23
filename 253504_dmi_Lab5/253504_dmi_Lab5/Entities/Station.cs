@@ -1,5 +1,6 @@
 ﻿using _253504_dmi_Lab5.Interfaces;
 using _253504_dmi_Lab5.Collections;
+using System;
 
 
 namespace _253504_dmi_Lab5.Entities
@@ -8,18 +9,47 @@ namespace _253504_dmi_Lab5.Entities
     {
         private MyCustomCollection<Passenger> _passes;
         private MyCustomCollection<Tariff> _tariffs;
-        public Station() => (_passes, _tariffs) = (new MyCustomCollection<Passenger>(), new MyCustomCollection<Tariff>());
+        private MyCustomCollection<Ticket> _tickets;
+
+        public Station() => (_passes, _tariffs, _tickets)
+            = (new MyCustomCollection<Passenger>(), new MyCustomCollection<Tariff>(), new MyCustomCollection<Ticket>());
+
+        public delegate void Message(string message);
+
+        public event Message TariffChanged;
+        public event Message PassengerChanged;
+        public event Message TicketChanged;
+        public void OnTariffChange(Tariff tariff)
+        {
+            TariffChanged?.Invoke($"A new tariff has been added:\n\n{tariff.ToString()}\n");
+        }
+
+        public void OnPassengerChange(Passenger passenger)
+        {
+            PassengerChanged?.Invoke($"A new passenger has been added:\n\n{passenger.ToString()}\n");
+        }
+
+        public void OnTicketChanged(Ticket ticket)
+        {
+            TicketChanged?.Invoke(ticket.ToString());
+        }
+
         public void EnterTariffData(Tariff newTariff) //новый тариф или данные о тарифе 
+
         {
             _tariffs.Add(newTariff);
+            OnTariffChange(newTariff);
         }
         public void EnterPassengerData(Passenger newPassenger) //новый пассажир или данные о нем 
+
         {
             _passes.Add(newPassenger);
+            OnPassengerChange(newPassenger);
         }
         public Passenger PassengerInfo(string name) //выдаёт инфу по пассажиру 
+
         {
-            if (!_passes.IsEmty())
+            if (!_passes.IsEmpty())
             {
                 for (int i = 0; i < _passes.Count; ++i)
                 {
@@ -33,8 +63,9 @@ namespace _253504_dmi_Lab5.Entities
             return new Passenger();
         }
         public Tariff TariffInfo(string destination) //выдаёт инфу по тарифу 
+
         {
-            if (!_tariffs.IsEmty())
+            if (!_tariffs.IsEmpty())
             {
                 for (int i = 0; i < _tariffs.Count; ++i)
                 {
@@ -47,13 +78,71 @@ namespace _253504_dmi_Lab5.Entities
             }
             return new Tariff();
         }
-        public double TotalTicketPrice() //по данным пассажира выдаёт суммарную стоимость билетов
+        public double TotalTicketPrice(string name) //по данным пассажира выдаёт суммарную стоимость билетов
         {
-            return 1;
+            if (!_passes.IsEmpty())
+            {
+                for (int i = 0; i < _passes.Count; ++i)
+                {
+                    Passenger pass = _passes[i];
+                    if (pass.Name == name)
+                    {
+                        return pass.TotalCost();
+                    }
+                }
+            }
+            return 0;
         }
-        public MyCustomCollection<Passenger> PassengersByDestination() //по направлению выдаёт список пассажиров 
+
+        public bool BuyTicket(string name, string destination)
         {
-            return _passes;
+            if (!_passes.IsEmpty() && !_tariffs.IsEmpty())
+            {
+                for (int i = 0; i < _passes.Count; ++i)
+                {
+                    Passenger pass = _passes[i];
+                    if (pass.Name == name)
+                    {
+                        for (int j = 0; j < _tariffs.Count; ++j)
+                        {
+                            Tariff tariff = _tariffs[j];
+                            if (tariff.Destination == destination)
+                            {
+                                pass.Tariffs.Add(tariff);
+                                Ticket newTicket = new Ticket(pass, tariff);
+                                _tickets.Add(newTicket);
+                                OnTicketChanged(newTicket);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        public MyCustomCollection<Passenger> PassengersByDestination(string destination) //по направлению выдаёт список пассажиров 
+        {
+            MyCustomCollection<Passenger> passengers = new MyCustomCollection<Passenger>();
+            for (int i = 0; i < _passes.Count; ++i)
+            {
+                Passenger pass = _passes[i];
+                if (pass.DestCheck(destination))
+                    passengers.Add(pass);
+
+            }
+            return passengers;
+        }
+
+        public override string ToString()
+        {
+            string output = 
+                $"\n\n\t\tStation data:\n" +
+                $"\nPassengers list: \n\n{_passes.ToString()}\n" +
+                $"\nTariffs list: \n\n{_tariffs.ToString()}\n" +
+                $"\nTickets list: \n\n{_tickets.ToString()}\n\n";
+
+            return output;
         }
     }
 }

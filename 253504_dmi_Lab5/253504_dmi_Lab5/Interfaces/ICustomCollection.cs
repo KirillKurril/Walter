@@ -7,7 +7,7 @@ namespace _253504_dmi_Lab5.Interfaces
 
         void Reset();
 
-        void Next();
+        bool MoveNext();
 
         T Current();
         int Count { get; }
@@ -16,6 +16,6 @@ namespace _253504_dmi_Lab5.Interfaces
 
         void Remove(T item);
 
-        T RemoveCurrent();
+        void RemoveCurrent();
     }
 }

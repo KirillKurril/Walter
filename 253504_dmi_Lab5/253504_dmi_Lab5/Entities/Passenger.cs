@@ -1,3 +1,5 @@
+using _253504_dmi_Lab5.Collections;
+
 namespace _253504_dmi_Lab5.Entities
 {
     internal class Passenger
@@ -6,17 +8,39 @@ namespace _253504_dmi_Lab5.Entities
 
         public string Description { get; set; }
 
-        public Tariff[] tariffs;
-        public Passenger(string name = "", string description = "", Tariff[] tariffs = null)
+        public MyCustomCollection<Tariff> Tariffs;
+        public Passenger(string name = "", string description = "", MyCustomCollection<Tariff> tariffs = null)
         {
             Name = name;
             Description = description;
-            this.tariffs = tariffs;
+            Tariffs = tariffs ?? new MyCustomCollection<Tariff>();
+    }
+        public override string ToString()
+        {
+            string str1 = $"Name: {Name}\nDescription: {Description}\n";
+
+            return (!Tariffs.IsEmpty()) ? str1 + $"Treir tariffs:\n{Tariffs.ToString()}\n" : str1 + "No tariffs\n";
         }
 
-        public void Print()
+        public double TotalCost()
         {
-            Console.WriteLine($"Name: {Name}, Description: {Description}");
+            double totalCost = 0.0;
+            for (int i = 0; i < Tariffs.Count; ++i)
+            {
+                totalCost += Tariffs[i].Price;
+            }
+            return totalCost;
+        }
+
+        public bool DestCheck(string destination)
+        {
+            for (int i = 0; i < Tariffs.Count; ++i)
+            {
+                Tariff tariff = Tariffs[i];
+                if (tariff.Destination == destination)
+                    return true;
+            }
+            return false;
         }
     }
 }
