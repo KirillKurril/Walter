@@ -10,7 +10,6 @@ namespace _253504_dmi_Lab5.Collections
         private Node<T>? head = null;
         protected Node<T>? current = null;
 
-<<<<<<< HEAD
         public IEnumerator<T> GetEnumerator()
         {
             return new MyCustomCollectionEnumerator(this);
@@ -23,16 +22,6 @@ namespace _253504_dmi_Lab5.Collections
         private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
         public MyCustomCollection() { }
         public bool IsEmpty()
-=======
-        
-        public MyCustomCollection() {}
-
-        private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
-
-
-
-        public bool IsEmty()
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
         {
             return counter == 0;
         }
@@ -184,11 +173,6 @@ namespace _253504_dmi_Lab5.Collections
                     current = null;
                 }
             }
-<<<<<<< HEAD
-=======
-            --counter;
-            return tmp;
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
         }
 
         public override string ToString()
@@ -199,11 +183,7 @@ namespace _253504_dmi_Lab5.Collections
                 string str = string.Empty;
                 while (currentNode != null)
                 {
-<<<<<<< HEAD
                     str += currentNode.Value.ToString() + '\n';
-=======
-                    Console.WriteLine(currentNode.Value.ToString());
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
                     currentNode = currentNode.Next;
                 }
                 return str;

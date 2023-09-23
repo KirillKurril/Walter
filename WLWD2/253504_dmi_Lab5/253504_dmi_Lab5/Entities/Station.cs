@@ -8,9 +8,7 @@ namespace _253504_dmi_Lab5.Entities
     internal class Station : IStation
     {
         private MyCustomCollection<Passenger> _passes;
-        
         private MyCustomCollection<Tariff> _tariffs;
-<<<<<<< HEAD
         private MyCustomCollection<Ticket> _tickets;
 
         public Station() => (_passes, _tariffs, _tickets)
@@ -35,12 +33,6 @@ namespace _253504_dmi_Lab5.Entities
         {
             TicketChanged?.Invoke(ticket.ToString());
         }
-=======
-
-
-        public Station() => (_passes, _tariffs) = (new MyCustomCollection<Passenger>(), new MyCustomCollection<Tariff>());
-
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
 
         public void EnterTariffData(Tariff newTariff) //новый тариф или данные о тарифе 
 
@@ -48,14 +40,12 @@ namespace _253504_dmi_Lab5.Entities
             _tariffs.Add(newTariff);
             OnTariffChange(newTariff);
         }
-
         public void EnterPassengerData(Passenger newPassenger) //новый пассажир или данные о нем 
 
         {
             _passes.Add(newPassenger);
             OnPassengerChange(newPassenger);
         }
-
         public Passenger PassengerInfo(string name) //выдаёт инфу по пассажиру 
 
         {
@@ -72,7 +62,6 @@ namespace _253504_dmi_Lab5.Entities
             }
             return new Passenger();
         }
-
         public Tariff TariffInfo(string destination) //выдаёт инфу по тарифу 
 
         {
@@ -91,11 +80,7 @@ namespace _253504_dmi_Lab5.Entities
         }
         public double TotalTicketPrice(string name) //по данным пассажира выдаёт суммарную стоимость билетов
         {
-<<<<<<< HEAD
             if (!_passes.IsEmpty())
-=======
-            if (!_passes.IsEmty())
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
             {
                 for (int i = 0; i < _passes.Count; ++i)
                 {
@@ -111,11 +96,7 @@ namespace _253504_dmi_Lab5.Entities
 
         public bool BuyTicket(string name, string destination)
         {
-<<<<<<< HEAD
             if (!_passes.IsEmpty() && !_tariffs.IsEmpty())
-=======
-            if (!_passes.IsEmty() && !_tariffs.IsEmty())
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
             {
                 for (int i = 0; i < _passes.Count; ++i)
                 {
@@ -127,23 +108,16 @@ namespace _253504_dmi_Lab5.Entities
                             Tariff tariff = _tariffs[j];
                             if (tariff.Destination == destination)
                             {
-<<<<<<< HEAD
                                 pass.Tariffs.Add(tariff);
                                 Ticket newTicket = new Ticket(pass, tariff);
                                 _tickets.Add(newTicket);
                                 OnTicketChanged(newTicket);
-=======
-                                pass.tariffs.Add(tariff);
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
                             }
                         }
                     }
                 }
             }
-<<<<<<< HEAD
 
-=======
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
             return false;
         }
 
@@ -158,7 +132,6 @@ namespace _253504_dmi_Lab5.Entities
 
             }
             return passengers;
-<<<<<<< HEAD
         }
 
         public override string ToString()
@@ -170,8 +143,6 @@ namespace _253504_dmi_Lab5.Entities
                 $"\nTickets list: \n\n{_tickets.ToString()}\n\n";
 
             return output;
-=======
->>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
         }
     }
 }
