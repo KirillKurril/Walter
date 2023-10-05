@@ -1,0 +1,12 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "0YqpWQAPqSXKfgS5un5bykIDade/ynJxIjRwnWCliRLjwMoKldTp3ctaFR9QOt2qMwM0BDrpyC5stPpq6yY9qg==",
+=======
+  "dgSpecHash": "l93gpBYVjoEgULdIoBWzccj4oj9kwg7teo1EdzCNbuT5kbohClPM73ug3fBNXR7Z2KVfhX/YHu1HFow40EvwpQ==",
+>>>>>>> 998b300a56fd235981e77e55e377011b3eb39bf8
+  "success": true,
+  "projectFilePath": "C:\\Walter\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
