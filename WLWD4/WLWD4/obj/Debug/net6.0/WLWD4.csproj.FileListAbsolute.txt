@@ -1,0 +1,15 @@
+C:\Walter\WLWD4\WLWD4\bin\Debug\net6.0\WLWD4.exe
+C:\Walter\WLWD4\WLWD4\bin\Debug\net6.0\WLWD4.deps.json
+C:\Walter\WLWD4\WLWD4\bin\Debug\net6.0\WLWD4.runtimeconfig.json
+C:\Walter\WLWD4\WLWD4\bin\Debug\net6.0\WLWD4.dll
+C:\Walter\WLWD4\WLWD4\bin\Debug\net6.0\WLWD4.pdb
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.csproj.AssemblyReference.cache
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.AssemblyInfoInputs.cache
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.AssemblyInfo.cs
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.csproj.CoreCompileInputs.cache
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.dll
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\refint\WLWD4.dll
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.pdb
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\WLWD4.genruntimeconfig.cache
+C:\Walter\WLWD4\WLWD4\obj\Debug\net6.0\ref\WLWD4.dll
