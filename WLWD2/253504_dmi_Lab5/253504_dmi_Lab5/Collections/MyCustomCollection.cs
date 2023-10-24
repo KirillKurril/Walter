@@ -19,8 +19,11 @@ namespace _253504_dmi_Lab5.Collections
         {
             return GetEnumerator();
         }
+
         private bool CorrectIndexCheck(int index) => index >= 0 && index < counter;
+
         public MyCustomCollection() { }
+
         public bool IsEmpty()
         {
             return counter == 0;

@@ -1,0 +1,12 @@
+C:\Walter\WLWD5\SerializerLib\bin\Debug\net6.0\SerializerLib.deps.json
+C:\Walter\WLWD5\SerializerLib\bin\Debug\net6.0\SerializerLib.dll
+C:\Walter\WLWD5\SerializerLib\bin\Debug\net6.0\SerializerLib.pdb
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.csproj.AssemblyReference.cache
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.AssemblyInfoInputs.cache
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.AssemblyInfo.cs
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.csproj.CoreCompileInputs.cache
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.dll
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\refint\SerializerLib.dll
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\SerializerLib.pdb
+C:\Walter\WLWD5\SerializerLib\obj\Debug\net6.0\ref\SerializerLib.dll
