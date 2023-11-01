@@ -1,5 +1,4 @@
-﻿using System.Text.Json;
-using MyLibrary.Interfaces;
+﻿using Newtonsoft.Json;
 
 namespace MyLibrary
 {
@@ -7,14 +6,17 @@ namespace MyLibrary
     {
         IEnumerable<T> IFileService<T>.ReadFile(string fileName)
         {
-            string json = File.ReadAllText(fileName);
-            List<T> list = JsonSerializer.Deserialize<List<T>>(json);
-            return list ?? new List<T>();
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                string json = reader.ReadToEnd();
+                List<T> list = JsonConvert.DeserializeObject<List<T>>(json);
+                return list;
+            }
         }
 
         void IFileService<T>.SaveData(IEnumerable<T> data, string fileName)
         {
-            string json = JsonSerializer.Serialize(data);
+            string json = JsonConvert.SerializeObject(data.ToList());
             File.WriteAllText(fileName, json);
         }
     }

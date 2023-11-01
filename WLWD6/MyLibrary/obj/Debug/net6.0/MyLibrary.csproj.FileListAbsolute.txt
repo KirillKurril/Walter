@@ -1,15 +1,20 @@
-C:\Walter\WLWD6\MyLibrary\bin\Debug\net6.0\MyLibrary.deps.json
-C:\Walter\WLWD6\MyLibrary\bin\Debug\net6.0\MyLibrary.dll
-C:\Walter\WLWD6\MyLibrary\bin\Debug\net6.0\MyLibrary.pdb
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.AssemblyReference.cache
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfoInputs.cache
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfo.cs
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.CoreCompileInputs.cache
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.dll
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
-C:\Walter\WLWD6\MyLibrary\obj\Debug\net6.0\ref\MyLibrary.dll
-C:\Walter\WLWD6\WLWD6\bin\Debug\net6.0\MyLibrary.deps.json
-C:\Walter\WLWD6\WLWD6\bin\Debug\net6.0\MyLibrary.dll
-C:\Walter\WLWD6\WLWD6\bin\Debug\net6.0\MyLibrary.pdb
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\MyLibrary.deps.json
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\MyLibrary.dll
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\MyLibrary.pdb
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.AssemblyReference.cache
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfoInputs.cache
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfo.cs
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.dll
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
+C:\Users\MaxPl\source\repos\Lab6\MyLibrary\obj\Debug\net6.0\ref\MyLibrary.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfo.cs
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
