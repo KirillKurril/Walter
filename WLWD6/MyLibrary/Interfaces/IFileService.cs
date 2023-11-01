@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WLWD6.Interfaces
+﻿namespace MyLibrary.Interfaces
 {
     internal interface IFileService<T>
     {

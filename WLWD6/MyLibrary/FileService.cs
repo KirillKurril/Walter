@@ -1,10 +1,9 @@
-﻿
-using System.Text.Json;
-using WLWD6.Interfaces;
+﻿using System.Text.Json;
+using MyLibrary.Interfaces;
 
 namespace MyLibrary
 {
-    internal class FileService<T> : IFileService<T>
+    public class FileService<T> : IFileService<T>
     {
         IEnumerable<T> IFileService<T>.ReadFile(string fileName)
         {

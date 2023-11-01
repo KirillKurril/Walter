@@ -28,16 +28,16 @@ namespace WLWD5.Main
             ComputerClub computerClub = new ComputerClub(new List<Computer>() { computer1, computer2, computer3 }, "Ployka");
 
             serializer.SerializeXML(computerClub.ComputerList, "C:/Walter/WLWD5/Serialization/CompClub.xml");
-            /* ComputerClub deserializedByXml = (ComputerClub)serializer.DeSerializeXML("C:/Walter/WLWD5/Serialization/CompClub.xml");
-            Console.WriteLine(deserializedByXml);*/
+             ComputerClub deserializedByXml = (ComputerClub)serializer.DeSerializeXML("C:/Walter/WLWD5/Serialization/CompClub.xml");
+            //Console.WriteLine(deserializedByXml);
 
             serializer.SerializeJSON(computerClub.ComputerList, "C:/Walter/WLWD5/Serialization/CompClub.json");
-            /* ComputerClub deserializedByJson = (ComputerClub)serializer.DeSerializeJSON("C:/Walter/WLWD5/Serialization/CompClub.json");
-             Console.WriteLine(deserializedByJson);*/
+             ComputerClub deserializedByJson = (ComputerClub)serializer.DeSerializeJSON("C:/Walter/WLWD5/Serialization/CompClub.json");
+             //Console.WriteLine(deserializedByJson);
 
             serializer.SerializeByLINQ(computerClub.ComputerList, "C:/Walter/WLWD5/Serialization/CompClub.xlinq");
-           /* ComputerClub deserializedByXlinq = (ComputerClub)serializer.DeSerializeByLINQ("C:/Walter/WLWD5/Serialization/CompClub.xlinq");
-            Console.WriteLine(deserializedByXlinq);*/
+            ComputerClub deserializedByXlinq = (ComputerClub)serializer.DeSerializeByLINQ("C:/Walter/WLWD5/Serialization/CompClub.xlinq");
+            Console.WriteLine(deserializedByXlinq);
         }
     }
 }
