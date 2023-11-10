@@ -40,3 +40,17 @@ C:\Uni\walter\WLWD6\Lab6\obj\Debug\net6.0\refint\WLWD6.dll
 C:\Uni\walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.pdb
 C:\Uni\walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.genruntimeconfig.cache
 C:\Uni\walter\WLWD6\Lab6\obj\Debug\net6.0\ref\WLWD6.dll
+D:\Uni\C#\Walter\WLWD6\Lab6\bin\Debug\net6.0\WLWD6.exe
+D:\Uni\C#\Walter\WLWD6\Lab6\bin\Debug\net6.0\WLWD6.deps.json
+D:\Uni\C#\Walter\WLWD6\Lab6\bin\Debug\net6.0\WLWD6.runtimeconfig.json
+D:\Uni\C#\Walter\WLWD6\Lab6\bin\Debug\net6.0\WLWD6.dll
+D:\Uni\C#\Walter\WLWD6\Lab6\bin\Debug\net6.0\WLWD6.pdb
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.AssemblyInfoInputs.cache
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.AssemblyInfo.cs
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.csproj.CoreCompileInputs.cache
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.dll
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\refint\WLWD6.dll
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.pdb
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\WLWD6.genruntimeconfig.cache
+D:\Uni\C#\Walter\WLWD6\Lab6\obj\Debug\net6.0\ref\WLWD6.dll

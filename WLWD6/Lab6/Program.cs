@@ -6,7 +6,7 @@ namespace Lab6
     {
         static void Main(string[] args) 
         {
-            string Path = @"C:\Uni\walter\WLWD6\json\DataList.json";
+            string Path = @"..\..\..\..\json\DataList.json";
 
             List<Employee> employees = new List<Employee>()
             {
@@ -24,7 +24,6 @@ namespace Lab6
             var obj = Activator.CreateInstance(t);
             MethodInfo? saveData = t.GetMethod("SaveData");
             MethodInfo? readFile = t.GetMethod("ReadFile");
-
 
             saveData?.Invoke(obj, new object[] { employees, Path });
             IEnumerable<Employee> readList = (IEnumerable<Employee>)readFile?.Invoke(obj, new object[] { Path });
