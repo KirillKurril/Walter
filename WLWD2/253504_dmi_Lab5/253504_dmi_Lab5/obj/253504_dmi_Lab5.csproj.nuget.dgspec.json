@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Walter\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {}
+    "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {}
   },
   "projects": {
-    "E:\\Walter\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {
+    "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Walter\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
+        "projectUniqueName": "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
         "projectName": "253504_dmi_Lab5",
-        "projectPath": "E:\\Walter\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
+        "projectPath": "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
         "packagesPath": "C:\\Users\\Урфин-Джус\\.nuget\\packages\\",
-        "outputPath": "E:\\Walter\\253504_dmi_Lab5\\253504_dmi_Lab5\\obj\\",
+        "outputPath": "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Урфин-Джус\\AppData\\Roaming\\NuGet\\NuGet.Config",
