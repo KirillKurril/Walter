@@ -14,31 +14,6 @@ namespace _253504_dmi_Lab5
 
         static void Main(string[] args)
         {
-            MyCustomCollection<int> arr = new MyCustomCollection<int> { 1, 2, 3, 4, 5 };
-
-            foreach (int i in arr)
-            {
-                Console.WriteLine(i);
-            }
-            try
-            {
-                arr.Remove(10);
-            }
-            catch (CustomException ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
-
-            arr = new MyCustomCollection<int>();
-            try
-            {
-                arr.Remove(10);
-            }
-            catch (CustomException ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
-
             Station station = new Station();
             Journal journal = new Journal();
             Program program = new Program();
