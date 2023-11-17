@@ -1,0 +1,29 @@
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\Lab6.exe
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\Lab6.deps.json
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\Lab6.runtimeconfig.json
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\Lab6.dll
+C:\Users\MaxPl\source\repos\Lab6\Lab6\bin\Debug\net6.0\Lab6.pdb
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.csproj.AssemblyReference.cache
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.AssemblyInfoInputs.cache
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.AssemblyInfo.cs
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.dll
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\refint\Lab6.dll
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.pdb
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\Lab6.genruntimeconfig.cache
+C:\Users\MaxPl\source\repos\Lab6\Lab6\obj\Debug\net6.0\ref\Lab6.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\bin\Debug\net6.0\Lab6.exe
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\bin\Debug\net6.0\Lab6.deps.json
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\bin\Debug\net6.0\Lab6.runtimeconfig.json
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\bin\Debug\net6.0\Lab6.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\bin\Debug\net6.0\Lab6.pdb
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.AssemblyInfo.cs
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\refint\Lab6.dll
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.pdb
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\Lab6.genruntimeconfig.cache
+C:\Users\user\Downloads\Telegram Desktop\Lab6\Lab6\obj\Debug\net6.0\ref\Lab6.dll

@@ -1,0 +1,12 @@
+C:\Walter\WLWD5\WLWD5.Domain\bin\Debug\net6.0\WLWD5.Domain.deps.json
+C:\Walter\WLWD5\WLWD5.Domain\bin\Debug\net6.0\WLWD5.Domain.dll
+C:\Walter\WLWD5\WLWD5.Domain\bin\Debug\net6.0\WLWD5.Domain.pdb
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.csproj.AssemblyReference.cache
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.AssemblyInfoInputs.cache
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.AssemblyInfo.cs
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.csproj.CoreCompileInputs.cache
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.dll
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\refint\WLWD5.Domain.dll
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\WLWD5.Domain.pdb
+C:\Walter\WLWD5\WLWD5.Domain\obj\Debug\net6.0\ref\WLWD5.Domain.dll

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfComputer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Computer>
+    <Processor>
+      <Model>Intel Core i5-10600K</Model>
+      <Manufacturer>Intel</Manufacturer>
+      <ClockSpeed>4.10 ГГц</ClockSpeed>
+      <NumberOfCores>6</NumberOfCores>
+    </Processor>
+    <RAM>
+      <Manufacturer>Corsair</Manufacturer>
+      <Capacity>16 ГБ</Capacity>
+    </RAM>
+    <Drive>
+      <Manufacturer>Samsung</Manufacturer>
+      <Type>SSD</Type>
+      <Capacity>1 ТБ</Capacity>
+    </Drive>
+  </Computer>
+  <Computer>
+    <Processor>
+      <Model>AMD Ryzen 9 5900X</Model>
+      <Manufacturer>AMD</Manufacturer>
+      <ClockSpeed>3.70 ГГц</ClockSpeed>
+      <NumberOfCores>12</NumberOfCores>
+    </Processor>
+    <RAM>
+      <Manufacturer>Kingston</Manufacturer>
+      <Capacity>8 ГБ</Capacity>
+    </RAM>
+    <Drive>
+      <Manufacturer>Western Digital</Manufacturer>
+      <Type>HDD</Type>
+      <Capacity>4 ТБ</Capacity>
+    </Drive>
+  </Computer>
+  <Computer>
+    <Processor>
+      <Model>Apple M1</Model>
+      <Manufacturer>Apple</Manufacturer>
+      <ClockSpeed>3.20 ГГц</ClockSpeed>
+      <NumberOfCores>8</NumberOfCores>
+    </Processor>
+    <RAM>
+      <Manufacturer>G.Skill</Manufacturer>
+      <Capacity>32 ГБ</Capacity>
+    </RAM>
+    <Drive>
+      <Manufacturer>Crucial</Manufacturer>
+      <Type>SSD</Type>
+      <Capacity>500 ГБ</Capacity>
+    </Drive>
+  </Computer>
+</ArrayOfComputer>

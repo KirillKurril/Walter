@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ComputerClub>
+  <Computer>
+    <Processor>
+      <Model>Intel Core i5-10600K</Model>
+      <Manufacturer>Intel</Manufacturer>
+      <ClockSpeed>4.10 ГГц</ClockSpeed>
+      <Cores>6</Cores>
+    </Processor>
+    <Memory>
+      <Manufacturer>Corsair</Manufacturer>
+      <Capacity>16 ГБ</Capacity>
+    </Memory>
+    <Storage>
+      <Manufacturer>Samsung</Manufacturer>
+      <Type>SSD</Type>
+      <Capacity>1 ТБ</Capacity>
+    </Storage>
+  </Computer>
+  <Computer>
+    <Processor>
+      <Model>AMD Ryzen 9 5900X</Model>
+      <Manufacturer>AMD</Manufacturer>
+      <ClockSpeed>3.70 ГГц</ClockSpeed>
+      <Cores>12</Cores>
+    </Processor>
+    <Memory>
+      <Manufacturer>Kingston</Manufacturer>
+      <Capacity>8 ГБ</Capacity>
+    </Memory>
+    <Storage>
+      <Manufacturer>Western Digital</Manufacturer>
+      <Type>HDD</Type>
+      <Capacity>4 ТБ</Capacity>
+    </Storage>
+  </Computer>
+  <Computer>
+    <Processor>
+      <Model>Apple M1</Model>
+      <Manufacturer>Apple</Manufacturer>
+      <ClockSpeed>3.20 ГГц</ClockSpeed>
+      <Cores>8</Cores>
+    </Processor>
+    <Memory>
+      <Manufacturer>G.Skill</Manufacturer>
+      <Capacity>32 ГБ</Capacity>
+    </Memory>
+    <Storage>
+      <Manufacturer>Crucial</Manufacturer>
+      <Type>SSD</Type>
+      <Capacity>500 ГБ</Capacity>
+    </Storage>
+  </Computer>
+</ComputerClub>
