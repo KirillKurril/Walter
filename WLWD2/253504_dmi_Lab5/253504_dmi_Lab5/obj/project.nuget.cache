@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "LhDlalGUQvn/Hk+aGJ/tcWvB6L9tQw4x2spraR8/uAlfm2uWGujYTG/+HtMtN1uKNdXb0hJa0IvjG46GT7+0IQ==",
   "success": true,
   "projectFilePath": "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
@@ -9,6 +10,11 @@
   "success": true,
   "projectFilePath": "C:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
 >>>>>>> 1762929a1721b632bd90f5ed754fc5370e7dc187
+=======
+  "dgSpecHash": "YVfDkqsbNzibEs1o4u9x41IQbBpw/k2HB9pHOhwUCp8lX7bCgSl/ovwKZaz33+9wUiMUhyoukba+WJE5sX0dsg==",
+  "success": true,
+  "projectFilePath": "D:\\Uni\\C#\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
+>>>>>>> 1e0ad82d15b3913f74b49b5264efa1582051a113
   "expectedPackageFiles": [],
   "logs": []
 }

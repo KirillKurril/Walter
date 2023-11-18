@@ -9,7 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _253504_dmi_Lab5
 <<<<<<< HEAD
+<<<<<<< HEAD
 build_property.ProjectDir = E:\Walter\WLWD2\253504_dmi_Lab5\253504_dmi_Lab5\
 =======
 build_property.ProjectDir = C:\Walter\WLWD2\253504_dmi_Lab5\253504_dmi_Lab5\
 >>>>>>> 1762929a1721b632bd90f5ed754fc5370e7dc187
+=======
+build_property.ProjectDir = D:\Uni\C#\Walter\WLWD2\253504_dmi_Lab5\253504_dmi_Lab5\
+>>>>>>> 1e0ad82d15b3913f74b49b5264efa1582051a113

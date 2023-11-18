@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {}
   },
   "projects": {
@@ -15,24 +16,29 @@
         "outputPath": "E:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\obj\\",
 =======
     "C:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {}
+=======
+    "D:\\Uni\\C#\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {}
+>>>>>>> 1e0ad82d15b3913f74b49b5264efa1582051a113
   },
   "projects": {
-    "C:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {
+    "D:\\Uni\\C#\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
+        "projectUniqueName": "D:\\Uni\\C#\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
         "projectName": "253504_dmi_Lab5",
+<<<<<<< HEAD
         "projectPath": "C:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\obj\\",
 >>>>>>> 1762929a1721b632bd90f5ed754fc5370e7dc187
+=======
+        "projectPath": "D:\\Uni\\C#\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\253504_dmi_Lab5.csproj",
+        "packagesPath": "C:\\Users\\Урфин-Джус\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\C#\\Walter\\WLWD2\\253504_dmi_Lab5\\253504_dmi_Lab5\\obj\\",
+>>>>>>> 1e0ad82d15b3913f74b49b5264efa1582051a113
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Урфин-Джус\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
