@@ -1,0 +1,4 @@
+D:\Uni\Walter\WLWD8\WLWD8\obj\Debug\net6.0\WLWD8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\Walter\WLWD8\WLWD8\obj\Debug\net6.0\WLWD8.AssemblyInfoInputs.cache
+D:\Uni\Walter\WLWD8\WLWD8\obj\Debug\net6.0\WLWD8.AssemblyInfo.cs
+D:\Uni\Walter\WLWD8\WLWD8\obj\Debug\net6.0\WLWD8.csproj.CoreCompileInputs.cache
