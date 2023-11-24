@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CwXyMAuPn8pTo96y3pFJ9RJOBNkiH6pIsuQeuv+5N6T24grJMa6feuu9jX48CVUNRL918Y2sZH60Cy58gMR3Ig==",
+  "dgSpecHash": "1dgsDtAsf1DsE7nk4vWlefsGn8b0ssWgolm/2R3hMdXyGoEtPErogRbMHo3Z2uZMR2KhuW8rfih5a9oBsESNog==",
   "success": true,
-  "projectFilePath": "D:\\Uni\\Walter\\WLWD8\\WLWD8\\WLWD8.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Walter\\WLWD8\\WLWD8\\WLWD8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
