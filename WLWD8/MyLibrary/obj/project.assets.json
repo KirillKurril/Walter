@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Walter\\WLWD8\\MyLibrary\\MyLibrary.csproj",
+      "projectUniqueName": "C:\\Uni\\Walter\\WLWD8\\MyLibrary\\MyLibrary.csproj",
       "projectName": "MyLibrary",
-      "projectPath": "C:\\Walter\\WLWD8\\MyLibrary\\MyLibrary.csproj",
+      "projectPath": "C:\\Uni\\Walter\\WLWD8\\MyLibrary\\MyLibrary.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Walter\\WLWD8\\MyLibrary\\obj\\",
+      "outputPath": "C:\\Uni\\Walter\\WLWD8\\MyLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

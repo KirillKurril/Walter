@@ -10,3 +10,15 @@ C:\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.dll
 C:\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
 C:\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
 C:\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\ref\MyLibrary.dll
+C:\Uni\Walter\WLWD8\MyLibrary\bin\Debug\net6.0\MyLibrary.deps.json
+C:\Uni\Walter\WLWD8\MyLibrary\bin\Debug\net6.0\MyLibrary.dll
+C:\Uni\Walter\WLWD8\MyLibrary\bin\Debug\net6.0\MyLibrary.pdb
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.AssemblyReference.cache
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfoInputs.cache
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfo.cs
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.dll
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
+C:\Uni\Walter\WLWD8\MyLibrary\obj\Debug\net6.0\ref\MyLibrary.dll
